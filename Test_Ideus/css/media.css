@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  nav {
+    width: 90%;
+    justify-content: center;
+  }
+  .header_title_form h2{
+    font-size: 6vw;
+  }
+  .form_date,.form_place,.header_title_form form fieldset{
+    text-align: center;
+    width: 90%;
+  }
+  .fas.fa-users{
+    display: none;
+  }
+  .first_list ul{
+    justify-content: center;
+  }
+  .first_list li{
+    width: 15em;
+  }
+  .corusel_slider_list li:nth-child(2){
+    padding: 0;
+    width: 80%;
+    text-align: center;
+  }
+  .corusel_slider_list_title{
+    align-self: center;
+  }
+  .action_values{
+    width: 75%;
+  }
+  .action_mobile span{
+    display: none;
+  }
+  .footer_nav_navigation, .footer_nav_socials{
+    justify-content: center;
+  }
+}
+@media (min-width: 1440px) {
+  .first_list li{
+    width: 20%;
+  }
+}
