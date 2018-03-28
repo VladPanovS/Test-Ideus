@@ -2,6 +2,7 @@
 input[type=range] {
   -webkit-appearance: none;
   margin: 18px 0;
+  background: #bbb;
   width: 100%;
 }
 input[type=range]:focus {
@@ -27,7 +28,7 @@ input[type=range]::-webkit-slider-thumb {
   margin-top: -7px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #bbb;
+  background: #43e5f7;
 }
 input[type=range]::-moz-range-track {
   width: 100%;

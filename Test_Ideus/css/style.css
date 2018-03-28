@@ -75,8 +75,8 @@ header{
 }
 nav{
   display: flex;
-  justify-content: space-between;
-  width: 35%;
+  justify-content: space-around;
+  width: 45%;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -126,6 +126,7 @@ nav a{
     .header_title_form form{
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       background: rgba(0,0,0, 0.3);
       width: 70%;
@@ -145,14 +146,18 @@ nav a{
     }
       .form_place{
         width: 80%;
+        padding-left: 40px;
       }
       .form_date{
         width: 15%;
       }
       .header_title_form form fieldset{
         background: #fff;
-        width: 87%;
+        width: calc(86.5% - 6px);
         position: relative;
+      }
+      .fas.fa-users{
+        margin-right: 25px;
       }
       .fas.fa-users::before{
         content: "\f0c0";
@@ -160,12 +165,12 @@ nav a{
         left: 10px;
         top: 10px;
         color: #3f3f3f;
-}
-      
+    }
       .header_title_form form input.button_form{
         color: #fff;
         background: #1db1ae;
-        width: 5em;
+        min-width: calc(5em - 4px);
+        width: 10%;
         cursor: pointer;
       }
     .header_title_form p{
@@ -243,8 +248,9 @@ nav a{
 .first_list_container_bg{
   height: 45%;
   width: 100%;
+  margin-bottom: 2em;
 }
-.first_list_container_bg:nth-child(1){
+.first_list_container:nth-child(1) .first_list_container_bg{
   background: url("../img/pic/first_list_first.png") no-repeat top center;
   background-size: cover;
  }
@@ -270,12 +276,12 @@ nav a{
     width: 100%;
   }
   .first_list_container_text, .first_list_container_sizebox{
-    height: 27.5%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em 0;
   }
     .first_list_container_title{
       font-weight: 600;
