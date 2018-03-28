@@ -452,7 +452,6 @@ footer ul{
   color: #fff;
   font-family: "Open Sans";
   font-size: 0.9em;
-  display: inline-block;
   margin: 5px;
   transition: color 0.4s linear;
 }
